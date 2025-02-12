@@ -164,9 +164,9 @@ if (age % 2 === 0) {
 
 let val = 7;
 
-if (val < 5) {
+if (val >= 5 && x < 10) {
   console.log("Meno di 5")
-} else if (val < 10) {
+} else if (val < 5) {
   console.log("Meno di 10")
 } else {
   console.log("Uguale a 10 o maggiore");
